@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+_LISTS_H_	lists.h	2;"	d
+add_dnodeint_end	add_dnodeint_end.c	/^dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)$/;"	f
+delete_dnodeint_at_index	delete_dnodeint_at_index.c	/^int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)$/;"	f
+dlistint_s	lists.h	/^typedef struct dlistint_s$/;"	s
+dlistint_t	lists.h	/^} dlistint_t;$/;"	t	typeref:struct:dlistint_s
+free_dlistint	free_dlistint.c	/^void free_dlistint(dlistint_t *head)$/;"	f
+main	main.c	/^int main(void)$/;"	f
+n	lists.h	/^	int n;$/;"	m	struct:dlistint_s
+next	lists.h	/^	struct dlistint_s *next;$/;"	m	struct:dlistint_s	typeref:struct:dlistint_s::dlistint_s
+prev	lists.h	/^	struct dlistint_s *prev;$/;"	m	struct:dlistint_s	typeref:struct:dlistint_s::dlistint_s
+print_dlistint	print_dlistint.c	/^size_t print_dlistint(const dlistint_t *h)$/;"	f
